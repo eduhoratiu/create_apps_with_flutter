@@ -14,8 +14,8 @@ By the end of this course, you'll be equipped with the knowledge to craft intuit
 
 Here's what you'll find in this repository:
 
-- `flutter_app_1`: Our initial project, where the focus is on getting acquainted with Flutter by writing UI code in the main function.
-- `flutter_app_2`: The second phase of our learning where we begin to structure our code into different files, encouraging modularity and maintainability.
+- **[flutter_app_1](flutter_app_1)**: Our initial project, where the focus is on getting acquainted with Flutter by writing UI code in the main function.
+- **[flutter_app_2](flutter_app_2)**: The second phase of our learning where we begin to structure our code into different files, encouraging modularity and maintainability.
 
 This repository will evolve with more directories and examples as we progress through the course.
 
