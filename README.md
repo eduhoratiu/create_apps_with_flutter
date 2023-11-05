@@ -34,7 +34,7 @@ To get started with the projects:
 
 ## Feedback
 
-Should you have any suggestions or questions, feel free to open an issue or a discussion in the repository. Your input is valuable for the improvement of this course.
+Should you have any suggestions or questions, feel free to open an [issue](https://github.com/eduhoratiu/create_apps_with_flutter/issues) or a [discussion](https://github.com/eduhoratiu/create_apps_with_flutter/discussions) in the repository. Your input is valuable for the improvement of this course.
 
 ## License
 
