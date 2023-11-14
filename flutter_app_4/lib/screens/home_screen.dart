@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../common/strings.dart' as strings;
+import '../widgets/counter_display.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -16,23 +17,18 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('${strings.homeScreenTitle}: $counter'),
-        actions: [
-          IconButton(
-            onPressed: () => setState(() {
-              counter = 0;
-            }),
-            icon: const Icon(Icons.exposure_zero),
-          )
-        ],
+        title: const Text(strings.homeScreenTitle),
+        // actions: [
+        //   IconButton(
+        //     onPressed: () => setState(() {
+        //       counter = 0;
+        //     }),
+        //     icon: const Icon(Icons.exposure_zero),
+        //   )
+        // ],
       ),
       body: Center(
-        child: Text(
-          'The counter is $counter',
-          style: const TextStyle(
-            fontSize: 96.0,
-          ),
-        ),
+        child: CounterDisplay(counter: counter),
       ),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.plus_one),
