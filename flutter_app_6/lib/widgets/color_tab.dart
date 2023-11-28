@@ -3,7 +3,10 @@ import 'package:flutter/material.dart';
 class ColorTab extends StatelessWidget {
   const ColorTab({
     super.key,
+    required this.color,
   });
+
+  final Color color;
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +14,7 @@ class ColorTab extends StatelessWidget {
       child: SizedBox(
         width: 40.0,
         height: 40.0,
-        child: ColoredBox(color: Colors.red),
+        child: ColoredBox(color: color),
       ),
     );
   }

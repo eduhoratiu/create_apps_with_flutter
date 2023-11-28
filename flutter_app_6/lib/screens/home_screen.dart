@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
           title: const Text(strings.homeScreenTitle),
           bottom: const TabBar(
             tabs: [
-              ColorTab(),
+              ColorTab(color: Colors.red),
               Tab(child: ColoredBox(color: Colors.green)),
               Tab(child: ColoredBox(color: Colors.blue)),
             ],
