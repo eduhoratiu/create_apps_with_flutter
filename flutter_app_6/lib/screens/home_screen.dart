@@ -29,9 +29,10 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         body: const TabBarView(
           children: [
-            ColoredBox(color: Colors.red),
-            ColoredBox(color: Colors.green),
-            ColoredBox(color: Colors.blue),
+            ColoredBox(color: Colors.red, child: Center(child: Text('red'))),
+            ColoredBox(
+                color: Colors.green, child: Center(child: Text('green'))),
+            ColoredBox(color: Colors.blue, child: Center(child: Text('blue'))),
           ],
         ),
       ),
