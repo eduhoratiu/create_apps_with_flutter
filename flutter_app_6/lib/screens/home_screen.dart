@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 import '../common/strings.dart' as strings;
+import '../widgets/color_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -17,11 +19,11 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: const Text(strings.homeScreenTitle),
-          bottom: TabBar(
+          bottom: const TabBar(
             tabs: [
-              Tab(),
-              Tab(),
-              Tab(),
+              ColorTab(),
+              Tab(child: ColoredBox(color: Colors.green)),
+              Tab(child: ColoredBox(color: Colors.blue)),
             ],
           ),
         ),

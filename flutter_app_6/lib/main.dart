@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+// import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'common/strings.dart' as strings;
@@ -13,7 +13,7 @@ class FlutterApp6 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CupertinoApp(
+    return const MaterialApp(
       title: strings.appTitle,
       home: HomeScreen(),
     );
